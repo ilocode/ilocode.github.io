@@ -12,12 +12,38 @@
 #name {
     position: static;
     text-align: center;
-    color: #ffdbfc;
+    color: #E9AFA3;
     font-weight: 300;
     font-size: 4.5em;
     letter-spacing: .2em;
+    padding-top: 100px;
 }
 
 a:hover {
-  color: #fcffdb;
+  color: #72A1E5;
+}
+
+body {
+  background-color: #F9DEC9;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-right: 3em;
+}
+
+a {
+  text-decoration: none;
+  color: #AEC5EB;
 }
