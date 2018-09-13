@@ -6,14 +6,18 @@
 }
 
 #nav {
-  
+  margin-top: 0%;
 }
 
 #name {
     position: static;
     text-align: center;
-    color: pink;
+    color: #ffdbfc;
     font-weight: 300;
     font-size: 4.5em;
     letter-spacing: .2em;
+}
+
+a:hover {
+  color: #fcffdb;
 }
