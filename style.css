@@ -1,0 +1,19 @@
+#container {
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#nav {
+  
+}
+
+#name {
+    position: static;
+    text-align: center;
+    color: pink;
+    font-weight: 300;
+    font-size: 4.5em;
+    letter-spacing: .2em;
+}
