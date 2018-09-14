@@ -1,12 +1,13 @@
-#container {
-    background-color: white;
+#home-container {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #nav {
-  margin-top: 0%;
+  display: table-cell;
+  text-align: center;
+  width: 100%;
 }
 
 #name {
@@ -15,12 +16,8 @@
     color: #E9AFA3;
     font-weight: 300;
     font-size: 4.5em;
-    letter-spacing: .2em;
+    letter-spacing: .3em;
     padding-top: 100px;
-}
-
-a:hover {
-  color: #72A1E5;
 }
 
 body {
@@ -29,21 +26,25 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
     overflow: hidden;
+    padding-top: 0px;
 }
 
 li {
-    float: right;
+  float: left;
 }
 
 li a {
-    padding-left: 0em;
-    padding-right: 0em;
+  display: block;
+  width: 60px;
     margin-right: 3em;
 }
 
 a {
   text-decoration: none;
   color: #AEC5EB;
+}
+
+a:hover {
+  color: #72A1E5;
 }
