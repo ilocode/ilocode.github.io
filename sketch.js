@@ -18,10 +18,7 @@
 
 // GLOBALS
 var MAX_PARTICLES = 170;
-//var COLORS = [ '#31CFAD', '#ADDF8C', '#FF6500', '#FF0063', '#520042', '#DAF7A6' ];
 var COLORS = [ '#6A11CB', '#2575FC', '#FE2851', '#F7F7F7', '#303038'];
-//var COLORS = [ '#581845', '#900C3F', '#C70039', '#C70039', '#FFC300', '#DAF7A6' ];
-//var COLORS = [ 'rgba(49,207,173,.7)', 'rgba(173,223,140,.7)', 'rgba(255,101,0,.7)', 'rgba(255,0,99,.7)', 'rgba(82,0,66,.7)' ];
 
 //ARRAYS
 var particles = [];
