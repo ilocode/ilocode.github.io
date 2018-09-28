@@ -1,50 +1,52 @@
-#home-container {
+#container {
+    background-color: white;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
 #nav {
-  display: table-cell;
-  text-align: center;
-  width: 100%;
+  margin-top: 0%;
+  font-family: cursive;
 }
 
 #name {
     position: static;
     text-align: center;
-    color: #E9AFA3;
+    color: #FE2851;
     font-weight: 300;
-    font-size: 4.5em;
-    letter-spacing: .3em;
-    padding-top: 100px;
+    letter-spacing: .2em;
+    padding-top: 160px;
+  	font-size: 5em;
+  	font-weight:normal;
+  	font-style:none;
+}
+
+a:hover {
+  color: #6A11CB;
 }
 
 body {
-  background-color: #F9DEC9;
+  background-color: #F7F7F7;
 }
 
 ul {
     list-style-type: none;
+    padding: 0;
     overflow: hidden;
-    padding-top: 0px;
 }
 
 li {
-  float: left;
+    float: right;
 }
 
 li a {
-  display: block;
-  width: 60px;
+    padding-left: 0em;
+    padding-right: 0em;
     margin-right: 3em;
 }
 
 a {
   text-decoration: none;
-  color: #AEC5EB;
-}
-
-a:hover {
-  color: #72A1E5;
+  color: #2575FC;
 }
