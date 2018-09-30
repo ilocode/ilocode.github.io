@@ -118,7 +118,7 @@ function windowResized() {
 function draw() {
 	update();
     drawingContext.globalCompositeOperation = 'normal';
-  	background(247,247,247);
+  	background(0);
  	drawingContext.globalCompositeOperation = 'lighter';
 	for (var i = particles.length - 1; i >= 0; i--) {
     	particles[i].show();
